@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-color: rgb(46, 10, 75);
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    height: 6000px;
+    /*from bottom to top of the page*/
+    width: 200px;
+    float: left;
+    /*this makes the content of the page float to the left of the navigation*/
+    padding: 5px;
+    /*this looks like it creates a break between the RT edge of the page to the Nav*/
+    line-height: 30px;
+    /*brings it 30px from the top down*/
+}
+
+footer {
+    text-align: left;
+    margin-right: 200px;
+    /*this adds a margin reading since the navigation part takes up space*/
+    /*this is not needed here anymore*/
+}
+
+#bodytext {
+    margin-right: 200px;
+
+}
